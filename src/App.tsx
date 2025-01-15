@@ -1,16 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import HeaderComponent from "./components/header/HeaderComponent";
-import PostsGrid from "./components/posts/postsGrid";
+import AppRouter from "./router/Router";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <HeaderComponent />
-      <PostsGrid />
+      <AppRouter />
     </div>
   );
-}
+};
 
 export default App;
